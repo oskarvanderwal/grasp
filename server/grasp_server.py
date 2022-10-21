@@ -8,7 +8,7 @@ from pathlib import Path
 import re
 from typing import List, Optional, Dict, Any
 
-from org_tools import as_org, empty, DEFAULT_TEMPLATE, Config
+from server.org_tools import as_org, empty, DEFAULT_TEMPLATE, Config
 
 CAPTURE_PATH_VAR     = 'GRASP_CAPTURE_PATH'
 CAPTURE_TEMPLATE_VAR = 'GRASP_CAPTURE_TEMPLATE'

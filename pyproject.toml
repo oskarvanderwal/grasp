@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "LICENCE.md"
+readme = "README.md"
+
+[tool.poetry.scripts]
+grasp-server = "server.grasp_server:main"
+
+[tool.poetry.dependencies]
+python = "^3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
